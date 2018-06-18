@@ -21,5 +21,3 @@ async function getFile(path, options) {
 }
 
 main();
-
-

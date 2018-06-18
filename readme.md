@@ -16,9 +16,12 @@ I use this project to:
 + Play around with new JavaScript functionality
 
 ## Under The Hood
-Entrypoint is index.js  
-All code is written in /src
-When writing "npm start" a few things happens:
-+ Creates folder 'build'
-+ Build/Transpiles code from '/src' into to '/build' folder using Babel
-+ Node then runs index.js from '/build' folder
+  
+All code is written in /src  
+When running `npm start`, node runs `node src/index.js`
+
+### Changelog
+* #### 0.0.2
+  * Removed Babel. No Transpiling is needed
+* #### 0.0.1
+  * Project Initialized

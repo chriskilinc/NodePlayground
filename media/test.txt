@@ -1,1 +1,1 @@
-hello world from test.txt
+Some text from test.text
